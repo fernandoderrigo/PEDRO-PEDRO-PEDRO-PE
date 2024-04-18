@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Color de texto blanco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura del viewport */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+}
+
+.container {
+    text-align: center; /* Alinea el contenido al centro */
+}
+
+.container h1 {
+    color: #fff; /* Color de título blanco */
+}
+
+.container video,
+.container audio {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+}
